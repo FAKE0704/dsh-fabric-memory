@@ -1,28 +1,15 @@
 {
   "name": "dsh-fabric-memory",
   "version": "0.1.0",
-  "description": "fabric 织物工具的 dsh 插件（自包含 in-child 执行：kb 知识库镜像 + memory 跨端记忆原子 + kb-inbox 修订收件箱；发现式供给 fabric_tools_list + fabric_call_tool）——Genshu monorepo 镜像",
   "type": "module",
   "main": "index.js",
-  "license": "MIT",
+  "description": "fabric 织物工具的 dsh 自包含插件（kb 知识库镜像 + memory 跨端记忆原子 + kb-inbox 修订收件箱的检索/读/写治理面；发现式供给 fabric_tools_list + fabric_call_tool，语义核零依赖）。真源 = FAKE0704/Genshu packages/dsh-plugins/genshu-fabric-tools（本仓为镜像）",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FAKE0704/dsh-fabric-memory.git"
   },
-  "bugs": {
-    "url": "https://github.com/FAKE0704/dsh-fabric-memory/issues"
-  },
-  "homepage": "https://github.com/FAKE0704/dsh-fabric-memory#readme",
-  "files": [
-    "index.js",
-    "core.js",
-    "README.md",
-    "LICENSE"
-  ],
+  "license": "MIT",
   "engines": {
-    "dsh": ">=0"
-  },
-  "scripts": {
-    "test": "bun test"
+    "dsh": ">=0.2.1-alpha.1 <0.3.0"
   }
 }
